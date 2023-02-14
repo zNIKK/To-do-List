@@ -81,8 +81,14 @@
 
 .lightMode > div > main > .container > .content > .footer > .selected {
     background-color: hsl(236, 33%, 92%);
-    box-shadow: 5px 15px 17px 0.5px rgba(0, 0, 0, 0.251);
+}
 
+@media (max-width: 1440px) {
+        
+    .lightMode > div > main > .container > .content > .footer > .selected {
+        background-color: hsl(236, 33%, 92%);
+        box-shadow: 5px 15px 17px 0.5px rgba(0, 0, 0, 0.251);
+    }
 }
 
 

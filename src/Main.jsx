@@ -60,6 +60,7 @@ export default class Main extends Component {
       tarefas, tarefaFeita, checked, id,
     } = this.state;
     let { novaTarefa } = this.state;
+    
     const novasTarefas = [...tarefas];
 
     novaTarefa = novaTarefa.trim();
